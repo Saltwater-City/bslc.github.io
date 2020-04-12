@@ -20,12 +20,14 @@ layout: default
             <small>{{ post.date | date_to_string }}</small>
             <!-- this code adds tags from posts -->
             <!-- found originally at https://longqian.me/2017/02/09/github-jekyll-tag/ -->
-            <span>[
-              {% for tag in page.tags %}
-                {% capture tag_name %}{{ tag }}{% endcapture %}
-                <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-              {% endfor %}
-            ]</span>
+            <span class="post-tags">
+               [&nbsp;
+               {% for tag in page.tags %}
+                 {% capture tag_name %}{{ tag }}{% endcapture %}
+                 <a class="no-underline" href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
+               {% endfor %}
+               ]
+            </span>
           </a>
         </h3>
       </li>
