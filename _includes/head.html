@@ -10,9 +10,6 @@
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
-    {% if site.tags != "" %}
-      {% include collecttags.html %}
-    {% endif %}
   </title>
 
   {% if page.url and site.baseurl %}
@@ -42,4 +39,7 @@
   <!-- this code execute tag collection from posts -->
   <!-- found originally at https://longqian.me/2017/02/09/github-jekyll-tag/ -->
 
+  {% if site.tags != "" %}
+    {% include collecttags.html %}
+  {% endif %}
 </head>

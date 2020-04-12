@@ -4,6 +4,16 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+  <!-- this code execute tag collection from posts -->
+  <!-- found originally at https://longqian.me/2017/02/09/github-jekyll-tag/ -->
+  <span class="post-tags">
+    [&nbsp;
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a class="no-underline" href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
+    {% endfor %}
+    ]
+  </span> 
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
@@ -18,16 +28,6 @@ layout: default
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
-            <!-- this code adds tags from posts -->
-            <!-- found originally at https://longqian.me/2017/02/09/github-jekyll-tag/ -->
-            <span class="post-tags">
-               [&nbsp;
-               {% for tag in page.tags %}
-                 {% capture tag_name %}{{ tag }}{% endcapture %}
-                 <a class="no-underline" href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
-               {% endfor %}
-               ]
-            </span>
           </a>
         </h3>
       </li>
