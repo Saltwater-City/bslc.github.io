@@ -19,7 +19,6 @@ Learn more and contribute on [GitHub](https://github.com/poole).
 Some fun facts about the setup of this project include:
 
 * Built with [Jekyll](https://jekyllrb.com) and the [Lanyon](http://lanyon.getpoole.com) theme
- 
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 * Coded with [Vim](https://www.vim.org)
 
