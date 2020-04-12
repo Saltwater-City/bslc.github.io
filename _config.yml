@@ -1,7 +1,7 @@
 # Setup
 title:               JADSB 
 tagline:             'Just another data science blog'
-description:         'A blog on all things data science related'
+description:         'A blog by Bernard on all things data science'
 baseurl:             ''
 paginate:            5
 permalink:           pretty
