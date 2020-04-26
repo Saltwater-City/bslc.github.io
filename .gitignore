@@ -1,4 +1,4 @@
-# vim temp files
+.DS*
 *.swp
 # Jeykyll local build
 Gemfile*
