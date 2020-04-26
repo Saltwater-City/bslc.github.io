@@ -4,7 +4,7 @@ title: Picking a Topic
 tags: data-science, career, capstone-project
 ---
 
-In I mentioned in my previous [post]({{site.baseurl}}{% link _posts/2020-04-19-capstone-importance.md %}), self-directed projects are critical to aspiring data scientists. A natural question arises: What topics are appropriate for such projects? If you are looking to do projects to enhance your resume and your Github profile, you do not have constraints from your non-existent manager or client. While this freedom seems wonderful at first, many of my mentees have found it to be overwhelming.
+In I mentioned in my previous [post]({{site.baseurl}}{% link _posts/2020-04-19-capstone-importance.md %}), projects are important aspiring data scientists as way to gain experience and exhibit their skills. A question naturally arises from the need to do self-direct projects: What topics are appropriate for such projects? If you are looking to enhance your resume and your Github profile, you do not have constraints from your non-existent manager or client. While this freedom seems wonderful at first, many of my mentees have found it to be overwhelming.
 {% include image.html url="/images/horrible_freedom.png" description="" %}
 To guide my mentees, I always advise them to pick a topic that is important to them on a personal level. In comparison to the standard topics that can be found on Kaggle and other data science focused sites, there are several advantages:
 
@@ -24,4 +24,4 @@ As a burgeoning data scientist, one is unlikely to be the expert on the typical 
 
 <!-- Aside from picking a topic of personal interest, the topic involved should also be of *business* interest to some *stakeholder*. After all, like every other employee of a company, a data scientist's work should add value to the company. While simple at first glance, the ideas of business interest and stakeholders can be difficult to define and these topics will be covered in a separate post in the future.-->
 ### Final Thoughts 
-In this post, I have shown the advantages in picking a project topic based on personal interest. For a data science project, there has to be a data set. In my next post, I will discuss how to pick a data set appropriate for a project.
+Picking a topic based on personal interest is a way to take advantage of the freedom of not having anyone to answer to. I have shown the numerous advantages in picking a project topic that can show-off your passion and knowledge. For the next step in a data science project, there has to be a data set. In my next post, I will discuss how to pick an appropriate data set. 
