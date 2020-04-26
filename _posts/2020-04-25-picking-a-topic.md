@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Picking a Topic
-tags: data-science, career, capstone-project
+tags: data-science career capstone-project
 ---
 
 In I mentioned in my previous [post]({{site.baseurl}}{% link _posts/2020-04-19-capstone-importance.md %}), projects are important aspiring data scientists as way to gain experience and exhibit their skills. A question naturally arises from the need to do self-direct projects: What topics are appropriate for such projects? If you are looking to enhance your resume and your Github profile, you do not have constraints from your non-existent manager or client. While this freedom seems wonderful at first, many of my mentees have found it to be overwhelming.
