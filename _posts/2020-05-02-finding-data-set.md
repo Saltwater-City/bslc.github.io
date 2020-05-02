@@ -10,15 +10,15 @@ Once you have picked a couple of topics based on the guidelines provided in my [
 
 1. Narrow, a.k.a. Tall and Skinny, Data
 
-    Of the many components that make up data science, employers tend to focus on machine learning more than other disciplines. Aside from being relvant to the topic of choice, the data set should showcase your machine learning skills. To facilitate machine learning, a data set with many records and relatively few attributes, i.e., <a href="https://en.wikipedia.org/wiki/Wide_and_narrow_data#Narrow">a narrow data set</a> is preferred. If you need some examples on what a narrow data set should be like, I highly recommend downloading some of the data sets in [Kaggle]({http://www.kaggle.com}). The main data set in each competition is usally in the right form. 
+    Of the many components that make up data science, employers tend to focus on machine learning more than other disciplines. Aside from being relevant to the topic of choice, the data set should showcase your machine learning skills. To facilitate machine learning, a data set with many records and relatively few attributes, i.e., <a href="https://en.wikipedia.org/wiki/Wide_and_narrow_data#Narrow">a narrow data set</a> is preferred. If you need some examples on what a narrow data set should be like, I highly recommend downloading some of the data sets in [Kaggle]({http://www.kaggle.com}). The main data set in each competition is usally in the right form. 
 
 2. Right Size
  
-    While a larger data set is preferred in machine learning in general, data set can be too large and impede progress. Available computational power will become an issue and it would be difficult to iterate in the project. Until you are comfortable using some advanced tools, such as <a href="https://spark.apache.org/">Apache Spark</a>, you should avoid data set that is too large to fit into memory. Obvioulsy, if you find a great data set, but it is too large, you can always use only a fraction of the data. When down sampling the data, you should be mindful to not alter the distribution in the original data set.
+    While a larger data set is preferred in machine learning in general, data set can be too large and impede progress. Available computational power wwould become an issue and it would be difficult to iterate in the project. Until you are comfortable using some advanced tools, such as <a href="https://spark.apache.org/">Apache Spark</a>, you should avoid data set that is too large to fit into memory. Obvioulsy, if you find a great data set, but it is too large, you can always use only a fraction of the data. When down sampling the data, you should be mindful to not alter the distribution in the original data set.
 
 ## Finding Data Set on the Internet
 
-There is so much data available on the web. I am going to list some standard ways for data scientists to find, scrape, or curate the right data set for their projects. 
+There are so much data available on the web. I am going to list some standard ways for data scientists to find, scrape, or curate the right data set for their projects. 
 
 1. Search Engines
 
