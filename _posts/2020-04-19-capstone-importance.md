@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Importance of Capstone Projects
-tags: data-science, career
+tags: data-science career
 ---
 
 I have been a data science mentor at <a href="https://www.springboard.com/workshops/data-science-career-track/">Springboard</a> for almost three years. During that time, I have helped a number of people start their careers in data science. For people enrolled in Springboard's program, they are required to finish two capstone projects. These capstone projects are commonly found in <a href="https://www.thedataincubator.com/">similar</a> <a href="https://brainstation.io/course/toronto/data-science-bootcamp">bootcamps</a> and <a href="https://www.sfu.ca/computing/current-students/graduate-students/academic-programs/professional-master-of-science-in-computer-science/about-the-program/big-data.html">professional</a> <a href="https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-data-science">degree</a> <a href="https://www.analytics.gatech.edu/">programs</a> as well. In this blog post, I will discuss the importance of these projects and how to select topics for them. 
