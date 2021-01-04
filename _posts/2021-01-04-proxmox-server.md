@@ -33,9 +33,11 @@ To install Proxomox, you will need to create a USB key with the installation sof
     ```
 ## Installing Proxmox
 1. Installing Proxmox
+   
    Aside from a making a couple of choices on the file system and the address of the home lab, installation of Proxmox is straight forward.
 
 2. Logging into Proxomox's Web Interface
+   
    At this point, you can unplug the home lab box's monitor and keyboard. The rest of the guide can be done via a terminal or Proxmox's web interface.
     ```
     https://address.you.chose:8006
