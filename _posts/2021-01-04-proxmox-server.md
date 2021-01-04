@@ -31,13 +31,13 @@ To install Proxomox, you will need to create a USB key with the installation sof
     ``` bash
     sudo dd if=proxmox-ve_*.dmg of=/dev/rdiskX bs=1m
     ```
-## Installing and Configuring Proxmox
+## Installing Proxmox
 1. Installing Proxmox
-    Aside from a making a couple of choices on the file system and the address of the home lab, installation of Proxmox is straight forward.
+   Aside from a making a couple of choices on the file system and the address of the home lab, installation of Proxmox is straight forward.
 
 2. Logging into Proxomox's Web Interface
-    At this point, you can unplug the home lab box's monitor and keyboard. The rest of the guide can be done via a terminal or Proxmox's web interface.
+   At this point, you can unplug the home lab box's monitor and keyboard. The rest of the guide can be done via a terminal or Proxmox's web interface.
     ```
     https://address.you.chose:8006
     ```
-    Port 8006 is the default port number if you did not change it during the installation process. On visiting the web interface from a browser, the server would prompt for user name and password. The default user name is root and the password would have been chosen during the install. If the page fail to load, you may have forgotten the `s` in the `https`.
+    Port 8006 is the default port number if you did not change it during the installation process. On visiting the web interface from a browser, the server would prompt for user name and password. The default user name is root and the password would have been chosen during the install. If the page fail to load, you may have forgotten the `s` in `https`.
