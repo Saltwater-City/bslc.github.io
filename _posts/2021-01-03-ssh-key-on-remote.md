@@ -4,7 +4,7 @@ title: Adding SSH Key to Remote Server
 tags: ssh 
 ---
 
-You could setup ssh keys so that user name and password are not entered on every login. 
+You could setup ssh keys so that user name and password are not required on every login on remote server.
 
 1. Generate key-pair on local
 
