@@ -8,7 +8,7 @@ Setting up a home lab with GPU support can be helpful in learning machine learni
 
 ## Installing Proxmox
 
-To install Proxomox, you will need to create a USB key with the installation software. 
+To install Proxomox, you will need to create a USB key with the installation software. I download Proxomox 6.3 and use a Mac to create the installation media.
 
 1. Download Proxmox 
     You can download the latest version of Proxmox directly [at this page](https://www.proxmox.com/en/downloads/category/iso-images-pve).
@@ -20,7 +20,7 @@ To install Proxomox, you will need to create a USB key with the installation sof
     ```
     After converting the image file, plug the USB key into the Mac and looking for the disk.
     ``` bash
-    # look for external disk
+    # look for the external disk
     diskutil list # list all the disk attached to the computer
     ```
     From the list of disks, there should be an external disk. We need to unmount it prior to writing the installation media.
@@ -31,3 +31,13 @@ To install Proxomox, you will need to create a USB key with the installation sof
     ``` bash
     sudo dd if=proxmox-ve_*.dmg of=/dev/rdiskX bs=1m
     ```
+## Installing and Configuring Proxmox
+1. Installing Proxmox
+    Aside from a making a couple of choices on the file system and the address of the home lab, installation of Proxmox is straight forward.
+
+2. Logging into Proxomox's Web Interface
+    At this point, you can unplug the home lab box's monitor and keyboard. The rest of the guide can be done via a terminal or Proxmox's web interface.
+    ```
+    https://address.you.chose:8006
+    ```
+    Port 8006 is the default port number if you did not change it during the installation process. On visiting the web interface from a browser, the server would prompt for user name and password. The default user name is root and the password would have been chosen during the install. If the page fail to load, you may have forgotten the `s' in the `https'.
