@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Using Proxmox, Containers, and GPU Pass Through for Machine Learning
+title: Guide to Using Proxmox, Containers, and GPU Pass Through for Machine Learning
 tags: proxmox, GPU, machine-learning, container, pyenv, virtualenv, home-lab
 ---
 
-Setting up a home lab with GPU support can be helpful in learning machine learning and other technologies. While we could use virtual machines on Proxmox, we will focus on using containers with GPU pass through. Aside from making a few updates, [this post](https://medium.com/@MARatsimbazafy/journey-to-deep-learning-nvidia-gpu-passthrough-to-lxc-container-97d0bc474957) has most of the details necessary to setup the home lab properly. I am going to detail my experience in setting up a lab with Nvidia 1070 Ti and Core i7 setup. 
+Setting up a home lab with GPU support can be helpful in learning machine learning and other technologies. While we could use virtual machines on Proxmox, we will focus on using containers with GPU pass through in this guide. Aside from making a few updates, [this post](https://medium.com/@MARatsimbazafy/journey-to-deep-learning-nvidia-gpu-passthrough-to-lxc-container-97d0bc474957) has most of the details necessary to setup the home lab properly. I am going to detail my experience in setting up a lab with Nvidia 1070 Ti and Core i7 setup. 
 
 ## Installing Proxmox
 
@@ -13,7 +13,7 @@ To install Proxomox, you will need to create a USB key with the installation sof
 1. Download Proxmox 
     You can download the latest version of Proxmox directly [at this page](https://www.proxmox.com/en/downloads/category/iso-images-pve).
 2. Creating the USB key
-    I created the key on macOS. For other OSes, you can find the instructions at the [Proxmox wiki](https://pve.proxmox.com/wiki/Prepare_Installation_Media).
+    I created the key on macOS Cantalina. For other OSes, you can find the instructions at the [Proxmox wiki](https://pve.proxmox.com/wiki/Prepare_Installation_Media).
 
     ``` bash
     hdiutil convert -format UDRW -o proxmox-ve_*.dmg proxmox-ve_*.iso # convert the proxmox image into proper format
@@ -42,8 +42,9 @@ To install Proxomox, you will need to create a USB key with the installation sof
     ```
     https://address.you.chose:8006
     ```
-    Port 8006 is the default port number if you did not change it during the installation process. On visiting the web interface from a browser, the server would prompt for user name and password. The default user name is root and the password would have been chosen during the install. If the page fail to load, you may have forgotten the `s` in `https`.
+    Port 8006 is the default port number if you did not change it during the installation process. On visiting the web interface from a browser, the server would prompt for user name and password. The default user name is root and the password would have been chosen during the install. 
+    If the page fail to load, you may have forgotten the `s` in `https`. Because the `s` is needed, your browser may give you are warning about the webpage being insecure. You may safely ignore it. 
 
 ## Configuring Proxomox for GPU Pass Through
 
-
+Making GPU pass through 
