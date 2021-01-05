@@ -48,11 +48,12 @@ To install Proxomox, you will need to create a USB key with the installation sof
 ## Configuring Proxomox for GPU Pass Through
 
 Making GPU pass through work on Proxmox and containers is essentially a two step process:
+    
     1. configure the drivers on the server, and
     2. configure the containers. 
 
 1. Configure the Nvidai Drivers on Server
 
-Either use the Promox web interface or login to the server directly via SSH, we need to have a p
+    Either use the Promox web interface or login to the server directly via SSH, we need to have a p
 
 
