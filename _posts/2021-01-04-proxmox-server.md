@@ -201,7 +201,6 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file
     lxc.mount.entry: /dev/nvidia-modeset dev/nvidia-modeset none bind,optional,create=file
     lxc.mount.entry: /dev/nvidia-uvm-tools dev/nvidia-uvm-tools none bind,optional,create=file
-    /etc/pve/lxc/100.conf (END)
     ```
 
     Reboot the container for the settings to take effect. After the reboot check to see if the configurations worked with the following commands and outputs:
@@ -241,4 +240,4 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
 
 ### Final Thoughts
 
-That's it. You are done. You can now move to more important work of using the home lab for learning or actual work. Good luck and let me know what use your Proxmox GPU enabled box to do. 
+That's it. You are done. You can now move to more important work of using the home lab for learning or actual work. Good luck and let me know the cool projects you do with the GPU enabled Proxmox home lab.
