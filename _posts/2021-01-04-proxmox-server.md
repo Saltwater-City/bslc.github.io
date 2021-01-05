@@ -43,8 +43,12 @@ To install Proxomox, you will need to create a USB key with the installation sof
     https://address.you.chose:8006
     ```
     Port 8006 is the default port number if you did not change it during the installation process. On visiting the web interface from a browser, the server would prompt for user name and password. The default user name is root and the password would have been chosen during the install. 
-    If the page fail to load, you may have forgotten the `s` in `https`. Because the `s` is needed, your browser may give you are warning about the webpage being insecure. You may safely ignore it. 
+    If the page fails to load, you may have forgotten the `s` in `https`. Because the `s` is needed, your browser may give you are warning about the webpage being insecure. You may safely ignore it. 
 
 ## Configuring Proxomox for GPU Pass Through
 
-Making GPU pass through 
+Making GPU pass through work on Proxmox and containers is essentially a two step process:
+    1. configure the drivers on the server, and
+    2. configure the containers. 
+
+
