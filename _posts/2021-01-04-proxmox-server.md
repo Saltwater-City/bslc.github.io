@@ -166,11 +166,11 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     ```
     Because `nvidia` and `nvida_uvm` are not automatically created until X-server or nvidia-smi is called, we need to add the following lines to `/etc/udev/rules.d/70-nvidia.rules`:
     ```bash
-# /etc/udev/rules.d/70-nvidia.rules
-# Create /nvidia0, /dev/nvidia1 … and /nvidiactl when nvidia module is loaded
-    KERNEL==”nvidia”, RUN+=”/bin/bash -c ‘/usr/bin/nvidia-smi -L && /bin/chmod 666 /dev/nvidia*’”
-# Create the CUDA node when nvidia_uvm CUDA module is loaded
-    KERNEL==”nvidia_uvm”, RUN+=”/bin/bash -c ‘/usr/bin/nvidia-modprobe -c0 -u && /bin/chmod 0666 /dev/nvidia-uvm*’”
+    # /etc/udev/rules.d/70-nvidia.rules
+    # Create /nvidia0, /dev/nvidia1 … and /nvidiactl when nvidia module is loaded
+        KERNEL==”nvidia”, RUN+=”/bin/bash -c ‘/usr/bin/nvidia-smi -L && /bin/chmod 666 /dev/nvidia*’”
+    # Create the CUDA node when nvidia_uvm CUDA module is loaded
+        KERNEL==”nvidia_uvm”, RUN+=”/bin/bash -c ‘/usr/bin/nvidia-modprobe -c0 -u && /bin/chmod 0666 /dev/nvidia-uvm*’”
     ```
 
     Now, reboot the server with `shutdown -r now` and check if everything worked with `nvidia-smi` in a new command line.
@@ -179,7 +179,7 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
 
     Find the container ID in Proxmox's web interface and then edit the corresponding file at `/etc/pve/lxc/`. I am using an Ubuntu container with ID 100 so here's my config file
     ```bash
-#Ubuntu 20.04 with GPU passthrough
+    #Ubuntu 20.04 with GPU passthrough
     arch: amd64
     cores: 10
     hostname: CT100
