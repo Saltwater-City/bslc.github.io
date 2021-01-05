@@ -164,7 +164,9 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     nvidia
     nvidia_uvm
     ```
+    
     Because `nvidia` and `nvida_uvm` are not automatically created until X-server or nvidia-smi is called, we need to add the following lines to `/etc/udev/rules.d/70-nvidia.rules`:
+    
     ```bash
     # /etc/udev/rules.d/70-nvidia.rules
     # Create /nvidia0, /dev/nvidia1 … and /nvidiactl when nvidia module is loaded
