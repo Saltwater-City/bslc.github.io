@@ -70,7 +70,7 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     # buster-backports
     deb http://deb.debian.org/debian buster-backports main contrib non-free
     ```
-    I used Proxmox 6.3 in writing this guide and it is baased on Debian 10. If you are using a different version of Proxmox, it might be based off a different Debian version. In that case, you need to change the word `buster` to the corresponding version. 
+    I used Proxmox 6.3 in writing this guide and it is based on Debian 10. If you are using a different version of Proxmox, it might be based off a different Debian version. In that case, you need to change the word `buster` to the corresponding version. 
 
     Update all the packages to the latest versions and reboot
     ``` bash
