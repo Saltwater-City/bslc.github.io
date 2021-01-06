@@ -129,7 +129,7 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     pve-headers - Default Proxmox VE Kernel Headers
     ```
     
-    We can install the propoer version with
+    We can install the proper version with
     ``` bash
     apt-get install pve-headers-5.4.78-2-pve
     ```
