@@ -56,7 +56,7 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
 
 1. Configure the Nvidia Drivers on the Server
 
-    Either through Promox web interface or login to the server directly via SSH, we need to have command line access to the server. Since Proxmox is based on Debian, we follow the steps outlined in the [Debian wiki](https://wiki.debian.org/NvidiaGraphicsDrivers) to install the drivers on Proxmox. 
+    Either through Promox web interface or login to the server directly via SSH, we need to have command line access to the server. Since Proxmox is based on Debian, we follow the steps outlined in the [Debian wiki](https://wiki.debian.org/NvidiaGraphicsDrivers) to install the drivers on Proxmox. You can find references to package repositories in the [Proxmox wiki](https://pve.proxmox.com/wiki/Package_Repositories).
 
     We need to add the following lines to `/etc/apt/sources.list`:
     ``` bash
