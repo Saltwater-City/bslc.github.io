@@ -134,7 +134,7 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     apt-get install pve-headers-5.4.78-2-pve
     ```
 
-    and install Nivdia drivers with
+    and install Nvidia drivers with
     ```bash
     apt-get install -t buster-backports nvidia-driver
     ```
