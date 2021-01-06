@@ -244,9 +244,9 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
 
 ### Creating Snapshots and Templates
 
-     After all this hard work, you should save your progress on the container by creating a snapshot. If you chose ZFS as the base file system, this would be an option in the web interface under the specific container's menu. 
+After all this hard work, you should save your progress on the container by creating a snapshot. If you chose ZFS as the base file system, this would be an option in the web interface under the specific container's menu. 
 
-     You could also make the new GPU enabled container a template as a basis for other containers. The option of making that cointainer a template can be found via right-clicking on the name of the container. 
+You could also make the new GPU enabled container a template as a basis for other containers. The option of making that cointainer a template can be found via right-clicking on the name of the container. 
     
 
 ### Final Thoughts
