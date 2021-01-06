@@ -8,7 +8,7 @@ Setting up a home lab with GPU support can be helpful in learning machine learni
 
 ## Installing Proxmox
 
-To install Proxomox, you will need to create a USB key with the installation software. I download Proxomox 6.3 and use a Mac to create the installation media.
+To install Proxomox, you will need to create a USB key with the installation software. I downloaded Proxomox 6.3 and used a Mac to create the installation media.
 
 1. Download Proxmox 
     
