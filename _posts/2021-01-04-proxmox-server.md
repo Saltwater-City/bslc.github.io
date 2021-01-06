@@ -167,7 +167,7 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     nvidia_uvm
     ```
     
-    Because `nvidia` and `nvida_uvm` are not automatically created until X-server or nvidia-smi is called, we need to add the following lines to `/etc/udev/rules.d/70-nvidia.rules`:
+    Because `nvidia` and `nvidia_uvm` are not automatically created until X-server or nvidia-smi is called, we need to add the following lines to `/etc/udev/rules.d/70-nvidia.rules`:
     
     ```bash
     # /etc/udev/rules.d/70-nvidia.rules
@@ -206,7 +206,8 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     ```
 
     Reboot the container for the settings to take effect. After the reboot check to see if the configurations worked with the following commands and outputs:
-    ``` bash
+    
+    ```bash
     # nvidia-smi
     Tue Jan  5 02:57:07 2021
     +-----------------------------------------------------------------------------+
@@ -229,8 +230,10 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
     |  No running processes found                                                 |
     +-----------------------------------------------------------------------------+
     ```
+    
     and
-    ``` bash
+    
+    ```bash
     # ls /dev/nvidia* -l
     -rw-r — r — 1 root root 0 16.01.2017 20:11 /dev/nvidia-modeset
     crw-rw-rw- 1 nobody nobody 243, 0 16.01.2017 20:05 /dev/nvidia-uvm
@@ -241,9 +244,9 @@ Making GPU pass through work on Proxmox and containers is essentially a two step
 
 ### Creating Snapshots and Templates
 
-    After all this hard work, you should save your progress on the container by creating a snapshot. If you chose ZFS as the base file system, this would be an option in the web interface under the specific container's menu. 
+     After all this hard work, you should save your progress on the container by creating a snapshot. If you chose ZFS as the base file system, this would be an option in the web interface under the specific container's menu. 
 
-    You could also make the new GPU enabled container a template as a basis for other containers. The option of making that cointainer a template can be found via right-clicking on the name of the container. 
+     You could also make the new GPU enabled container a template as a basis for other containers. The option of making that cointainer a template can be found via right-clicking on the name of the container. 
     
 
 ### Final Thoughts
