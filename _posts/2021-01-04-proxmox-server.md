@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Guide to Using Proxmox, Containers, and GPU Pass Through for Machine Learning
+title: Guide to Setting up Proxmox, Containers, and GPU Pass Through for Machine Learning
 tags: proxmox, GPU, machine-learning, container, pyenv, virtualenv, home-lab
 ---
 
