@@ -11,8 +11,10 @@ Setting up a home lab with GPU support can be helpful in learning machine learni
 To install Proxomox, you will need to create a USB key with the installation software. I download Proxomox 6.3 and use a Mac to create the installation media.
 
 1. Download Proxmox 
+    
     You can download the latest version of Proxmox directly [at this page](https://www.proxmox.com/en/downloads/category/iso-images-pve).
 2. Creating the USB key
+    
     I created the key on macOS Cantalina. For other OSes, you can find the instructions at the [Proxmox wiki](https://pve.proxmox.com/wiki/Prepare_Installation_Media).
 
     ``` bash
