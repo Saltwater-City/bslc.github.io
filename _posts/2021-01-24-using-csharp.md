@@ -4,11 +4,11 @@ title: Programming in C# for People Who Like Vim
 tags: c-sharp, vim
 ---
 
-As somoene working in the mobile gaming industry, I wanted to learn more about the nuts and bolts of game making. To get hands-on experience, I am taking [C# Programming for Unity Game Development](https://www.coursera.org/specializations/programming-unity-game-development) from [Cousera][www.coursera.org/]. The first step in learning any programming language is to setup the development environment. The course instructor suggested using either [Visual Studio](https://visualstudio.microsoft.com/downloads/) or [MonoDevelop](https://visualstudio.microsoft.com/downloads/), but I am a fan of Vim. In this post, I am going document my initial experience in programming with C# with Vim on macOS.
+As somoene working in the mobile gaming industry, I wanted to learn more about the nuts and bolts of game making. To get hands-on experience, I am taking [C# Programming for Unity Game Development](https://www.coursera.org/specializations/programming-unity-game-development) from [Cousera](www.coursera.org/). The first step in learning any programming language is to setup the development environment. The course instructor suggested using either [Visual Studio](https://visualstudio.microsoft.com/downloads/) or [MonoDevelop](https://visualstudio.microsoft.com/downloads/), but I am a fan of Vim. In this post, I will document my initial experience in programming with C# from the terminal on macOS.
 
 1. Installing Mono
    
-   In order to compile C# code, you would need Mono, ["a free and open source .NET Framework-compatible software framek"](https://en.wikipedia.org/wiki/Mono_(software)). Using brew, you can install Mono via the following command:
+   In order to compile C# code, you would need Mono, ["a free and open source .NET Framework-compatible software framework"](https://en.wikipedia.org/wiki/Mono_(software)). Using brew, you can install Mono via the following command:
 
    ``` bash
    brew install mono
@@ -32,6 +32,7 @@ As somoene working in the mobile gaming industry, I wanted to learn more about t
            }
        }
    }
+   ```
 
    You can compile it with the *csc* command:
    ``` bash
