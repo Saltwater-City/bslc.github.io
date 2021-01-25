@@ -4,7 +4,7 @@ title: Programming in C# for People Who Like Vim
 tags: c-sharp, vim
 ---
 
-As somoene working in the mobile gaming industry, I wanted to learn more about the nuts and bolts of game making. To get hands-on experience, I am taking [C# Programming for Unity Game Development](https://www.coursera.org/specializations/programming-unity-game-development) from [Cousera](www.coursera.org/). The first step in learning any programming language is to setup the development environment. The course instructor suggested using either [Visual Studio](https://visualstudio.microsoft.com/downloads/) or [MonoDevelop](https://visualstudio.microsoft.com/downloads/), but I am a fan of Vim. In this post, I will document my initial experience in programming with C# from the terminal on macOS.
+As someone working in the mobile gaming industry, I wanted to learn more about the nuts and bolts of game making. To get hands-on experience, I am taking [C# Programming for Unity Game Development](https://www.coursera.org/specializations/programming-unity-game-development) from [](www.coursera.org/). The first step in learning any programming language is to setup the development environment. The course instructor suggested using either [Visual Studio](https://visualstudio.microsoft.com/downloads/) or [MonoDevelop](https://visualstudio.microsoft.com/downloads/), but I am a fan of Vim. In this post, I will document my initial experience in programming with C# from the terminal on macOS.
 
 1. Installing Mono
    
@@ -53,6 +53,6 @@ As somoene working in the mobile gaming industry, I wanted to learn more about t
 
 ## Final Thoughts
 
-So far, writing C# code on macOS seems straighforward. Though, the course invovles using [Unity](https://unity.com/). I might end up needing the functionalities in Visual Studio later.
+So far, writing C# code on macOS seems straightforward. Though, the course involves using [Unity](https://unity.com/). I might end up needing the functionalities in Visual Studio later.
 
 
